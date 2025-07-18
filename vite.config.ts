@@ -3,6 +3,7 @@ import { defineConfig as defineViteConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 const viteConfig = defineViteConfig({
+  base: '/react-website/', // Set for GitHub Pages deployment
   plugins: [react()],
 });
 

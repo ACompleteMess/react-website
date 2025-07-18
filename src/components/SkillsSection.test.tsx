@@ -1,7 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import SkillsSection from './SkillsSection';
 import { describe, it } from 'vitest';
-import { resumeData } from '../data/resumeData';
 
 const skillCategories = [
   { key: 'cloudPlatforms', label: 'Cloud Platforms' },
