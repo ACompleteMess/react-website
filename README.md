@@ -72,6 +72,15 @@ The output will be in the `dist/` folder.
 3. In your GitHub repo, go to Settings → Pages, and set the source to the `gh-pages` branch and `/ (root)`.
 4. Your site will be live at `https://acompletemess.github.io/react-website/`.
 
+### Redeploying to GitHub Pages
+If you make changes and want them to appear on your live site:
+1. Commit and push your changes to GitHub.
+2. Run:
+   ```sh
+   npm run deploy
+   ```
+3. Wait a minute, then refresh your site at `https://acompletemess.github.io/react-website/`.
+
 ## Contributing
 Pull requests and issues are welcome! Please add or update tests for any new features.
 
